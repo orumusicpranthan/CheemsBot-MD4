@@ -3,7 +3,7 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
+//© 2022 Badboy Bot Inc. Anna Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe hai ya
@@ -11,14 +11,14 @@
 //hai to, description me xeon ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
+//bhi karna hai apki marzi, thank you!🫂
 //════════════════════════════//
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
-//put Xeons youtube channel link in the video
+//put Badboys youtube channel link in the video
 //description and tag me on githuh repo, 
-//thank you🦄
+//thank you😜
 //════════════════════════════//
 
 const fs = require('fs')
@@ -55,7 +55,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['919645697828'] //ur owner number
-global.ownername = "🦄Dream Guy Anna" //ur owner name
+global.ownername = "🫂Dream Guy Anna" //ur owner name
 global.ytname = "YT: BADBOY MODER" //ur yt chanel name
 global.socialm = "GitHub: BADBMODER" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
@@ -66,11 +66,11 @@ global.ownertag = '919645697828' //ur tag number
 global.botname = 'Anna' //ur bot name
 global.linkz = "https://youtu.be/WiIdiDjFo" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtu.be/WiIdiDjFo" //ur website to be displayed
-global.botscript = 'https://github.com/BADBMODER/CheemsBot-MD4' //script link
-global.reactmoji = "😘" //ur menu react emoji
-global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Anna Bot Stickers\n\n\n\n\n\n\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
-global.author = "🦄Dream Guy Anna" //ur sticker watermark author
+global.botscript = 'https://github.com/BADBMODER/AnnaBot-MD' //𝚂𝙲𝚁𝙸𝙿𝚃 𝙻𝙸𝙽𝙺
+global.reactmoji = "☠️" //ur menu react emoji
+global.themeemoji = "🫂" //ur theme emoji
+global.packname = "Anna Bot Stickers\n\n\n\n\n\n\n\n\n\n\n🫂🫂🫂 " //ur sticker watermark packname
+global.author = "🫂Dream Guy Anna" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
