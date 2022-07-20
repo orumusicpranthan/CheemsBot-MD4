@@ -1086,9 +1086,9 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `❦ ════ •⊰❂ - ❂⊱• ════ ❦              
+                const menulist = `┌─❖
 │「 Hi 👋 」
-└┬❖ 「 ${ꪶͥͥͥʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶} 」
+└┬❖ 「 ${pushname} 」
 ┌┤✑  How Are You? 😄
 │└────────────┈ ⳹
 │
