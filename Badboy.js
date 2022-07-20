@@ -6,13 +6,6 @@
 //© 2022 Xeon Bot Inc. Cheems Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
-//recode kar ke youtube pe upload kar rhe hai ya
-//codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
-// ka link paste kr dena as a cradit or github 
-//repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
-//════════════════════════════//
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
@@ -1093,27 +1086,14 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
-│└────────────┈ ⳹
-│
-└─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
-└┬────────────┈ ⳹
-   │✑  Please Select
-   │✑  The Button Below
-   └─────────────┈ ⳹`
+                const menulist = ` 👻Hɪ Bʀᴏ @${sender.split("@")[0]}
+ 👻Pʀɪᴠᴀᴛᴇ : ${privat.length}
+ 👻Gʀᴏᴜᴘs : ${groups.length}
+ 👻Tᴏᴛᴀʟ : ${totalChat.length}
+ 👻Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}
+ 👻Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
+ ${jmn} -  ${jmo}\n${week} - ${calender}
+ `
    
    //randoming function
 function pickRandom(list) {
@@ -1687,7 +1667,6 @@ if (isBanChat) return reply(mess.banChat)
                 }
             }
             break
-      
 	    case 'family100': {
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
@@ -6668,7 +6647,7 @@ break
 	if (isBanChat) return reply(mess.banChat)
 	reply(mess.wait)
             let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
-            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/BADBMODER/Annabot`)
+            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/DGXeon/CheemsBot-MD4`)
     if (!regex1.test(args[0])) return reply(mess.linkm)
     let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
@@ -9206,7 +9185,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}togif [reply stick]
 ╠ ${prefix}tourl [reply img]
 ╠ ${prefix}tovn [reply aud]
-╠ ${prefix}tomp3 [reply vn]
+╠ ${prefix}mp3 [reply vn]
 ╠ ${prefix}toaudio [reply vid]
 ╠ ${prefix}ebinary [reply txt]
 ╠ ${prefix}dbinary [reply txt]
@@ -9985,7 +9964,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 CONVERT 」
 ╠ ${prefix}togif [reply stick]
 ╠ ${prefix}tourl [reply img]
 ╠ ${prefix}tovn [reply aud]
-╠ ${prefix}tomp3 [reply vn]
+╠ ${prefix}mp3 [reply vn]
 ╠ ${prefix}toaudio [reply vid]
 ╠ ${prefix}ebinary [reply txt]
 ╠ ${prefix}dbinary [reply txt]
