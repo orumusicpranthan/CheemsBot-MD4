@@ -1086,14 +1086,27 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = ` 👻Hɪ Bʀᴏ @${sender.split("@")[0]}
- 👻Pʀɪᴠᴀᴛᴇ : ${privat.length}
- 👻Gʀᴏᴜᴘs : ${groups.length}
- 👻Tᴏᴛᴀʟ : ${totalChat.length}
- 👻Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}
- 👻Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
- ${jmn} -  ${jmo}\n${week} - ${calender}
- `
+                const menulist = `❦ ════ •⊰❂ - ❂⊱• ════ ❦              
+│「 Hi 👋 」
+└┬❖ 「 ${ꪶͥͥͥʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶} 」
+┌┤✑  How Are You? 😄
+│└────────────┈ ⳹
+│
+└─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
+│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
+│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
+│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
+└┬────────────┈ ⳹
+   │✑  Please Select
+   │✑  The Button Below
+   └─────────────┈ ⳹`
    
    //randoming function
 function pickRandom(list) {
