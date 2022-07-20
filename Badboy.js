@@ -1687,25 +1687,7 @@ if (isBanChat) return reply(mess.banChat)
                 }
             }
             break
-      case 'tts':
-					if (args.length < 1) return badboy.sendMessage(from, `Kode bahasanya mana kak? contoh : ${prefix}tts id yamate kudasai`, text, { quoted: mek })
-				   const gtts = require('./lib/gtts')(args[0])
-					if (args.length < 2) return badboy.sendMessage(from, `Teksnya mana kak? contoh : ${prefix}tts id yamate kudasai`, text, { quoted: mek })
-					var bby = body.slice(8)
-					ranm = getRandom('.mp3')
-					rano = getRandom('.ogg')
-					bby.length > 300
-						? reply('Teks nya terlalu panjang kak')
-						: gtts.save(ranm, bby, function () {
-							exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
-								fs.unlinkSync(ranm)
-								buff = fs.readFileSync(rano)
-								if (err) return reply(dla.stikga())
-								badboy.sendMessage(from, buff, audio, { duration: 359996400, ptt: true, quoted: mek })
-								fs.unlinkSync(rano)
-							})
-						})
-					break
+      
 	    case 'family100': {
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
@@ -6061,7 +6043,7 @@ let audio = await toAudio(media, 'mp4')
 XeonBotInc.sendMessage(m.chat, {audio: audio, mimetype: 'audio/mpeg'}, { quoted : m })
 }
 break
-case 'tomp3': {
+case 'mp3': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (/document/.test(mime)) return reply(`Send/Reply Video/Audio You Want To Convert Into MP3 With Caption ${prefix + command}`)
@@ -6686,7 +6668,7 @@ break
 	if (isBanChat) return reply(mess.banChat)
 	reply(mess.wait)
             let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
-            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/DGXeon/CheemsBot-MD4`)
+            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/BADBMODER/Annabot`)
     if (!regex1.test(args[0])) return reply(mess.linkm)
     let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
